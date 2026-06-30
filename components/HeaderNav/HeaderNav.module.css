@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    .link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        padding-block: 24px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: var(--green-hover)
+        }
+
+        &:focus {
+            color: var(--gray)
+        }
+
+        &.activ {
+            color: var(--grey-green);
+        }
+    }
+}

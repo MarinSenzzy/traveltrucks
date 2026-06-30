@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: var(--inputs);
+    border-bottom: 1px solid var(--badges);
+    /* height: 72px; */
+    padding-block: 24px;
+    justify-content: center;
+    padding-inline: 64px;
+    position: relative;
+
+
+    .link {
+        position: absolute;
+        left: 64px;
+    }
+}
